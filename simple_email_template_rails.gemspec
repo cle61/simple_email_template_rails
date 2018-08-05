@@ -9,12 +9,15 @@ Gem::Specification.new do |s|
   s.version     = SimpleEmailTemplateRails::VERSION
   s.authors     = ["Clément Prod'homme"]
   s.email       = ["prodhomme.clement@hotmail.fr"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleEmailTemplateRails."
-  s.description = "TODO: Description of SimpleEmailTemplateRails."
+  s.homepage    = "https://github.com/cle61/simple_email_template_rails"
+  s.summary     = "Simple email template for Rails application"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails"
+  s.add_dependency "foundation_emails"
+  s.add_dependency "premailer-rails"
+  
+  s.add_development_dependency "sqlite3"
 end
