@@ -1,4 +1,4 @@
 module SimpleEmailTemplateRails
-  class Railtie < ::Rails::Railtie
+  class ApplicationJob < ActiveJob::Base
   end
 end
