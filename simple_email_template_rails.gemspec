@@ -16,8 +16,9 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails"
-  s.add_dependency "mjml-rails"
-  s.add_dependency "mjml-premailer"
+  s.add_dependency "sass-rails"
+  s.add_dependency "inky-rb"
+  s.add_dependency "premailer-rails"
 
   s.add_development_dependency "sqlite3"
 end
